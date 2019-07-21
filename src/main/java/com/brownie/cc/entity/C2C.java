@@ -47,12 +47,7 @@ public class C2C implements Serializable {
 
     @Column(name = "printer")
     private boolean printer;
+
+    @Column(name = "image_url")
+    private String imageUrl;
 }
-
-/*
-    create table c2c(
-        cafe_id INT NOT NULL AUTO INCREMENT,
-        cafe_name varchar(100),
-    description varchar(100),
-            ;*/
-
